@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/ic_youtube_searched_for_black_24dp"
+        android:title="search" />
+
+    <item
+        android:id="@+id/navigation_post"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Post Blood Request" />
+
+    <item
+        android:id="@+id/navigation_logout"
+        android:icon="@drawable/ic_directions_run_black_24dp"
+        android:title="Logout" />
+
+</menu>
+
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/redbloodcells"
+    tools:context=".MainActivity"
+    >
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="167dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="235dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginBottom="74dp"
+        android:background="@drawable/button_background"
+        android:text="DONOR"
+        android:textColor="#F9F2FF"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="163dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="320dp"
+        android:background="@drawable/button_background"
+        android:text="RECIPIENT"
+        android:textColor="#F9F2FF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+</android.support.constraint.ConstraintLayout>

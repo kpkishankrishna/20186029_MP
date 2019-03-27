@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".guidelines" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="630dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="101dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="419dp"
+            android:layout_height="wrap_content"
+            android:text="Eligibility"
+            android:textColor="@color/colorPrimaryDark"
+
+            android:textSize="45sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="435dp"
+            android:layout_height="290dp"
+            android:text="1. Any donor, who is healthy, fit and not suffering from any transmittable diseases can donate blood.\n2.The donor must be 18 -60 years ago and having a minimum weight of 50Kg can donate blood. Donor’s Hemoglobin level is 12.5% minimum.\n3. A donor can again donate blood after 3 months of your last donation of blood.\n4. Pulse rate must be between 50 to 100mm without any irregularities.\n5. BP Diastolic 50 to 100 mm Hg and Systolic 100 to 180 mm Hg.\n6. Body temperature should be normal and oral temperature should not exceed 37.5 degree Celsius. "
+            android:textColor="@color/bg_register" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Detail Info" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".bloodtips">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="36dp"
+        android:text="Before Donation"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="45dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="390dp"
+        android:layout_height="182dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="97dp"
+        android:textColor="@color/bg_register"
+        android:text="1. In the days before your donation, eat healthy, iron-rich foods such as spinach, red meat, fish, poultry, beans, iron-fortified cereals, and raisins\n2. Get a good night's sleep.\n3.At least 3 hours before donating, eat a balanced meal and avoid fatty foods, such as hamburgers, fries.\n4.Drink 16 oz water and fluids before donation,. You can be deferred by hydration.  " />
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="351dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="374dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="After Donation"
+            android:textColor="@color/colorPrimaryDark"
+
+            android:textSize="45sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Don’t skip any meals and make sure to eat after donation.\n2.If you feel light headed ,lie down,,preferably with feel elevated,until the feeling passes.\n3.Enjoy your day and know that you have made a positive difference. "
+            android:textColor="@color/bg_register" />
+    </LinearLayout>
+
+</RelativeLayout>
